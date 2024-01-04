@@ -1,66 +1,56 @@
 body
 {
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-    margin: 10;
-    background-image: url(./img/background.jpg);
-    justify-content: center;
     color: #ffffff;
+    background-image: url(./img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body , html
+{
+height: 100%;
+margin: 0%;
 }
 
 #cabecalho
-{
-    top: 10px;
-}
-
-
-header
 {
 text-align: center;
 }
 
 #perfil
 {
-    border-radius: 100%;
+    border-radius: 10%;
     height: 200px;
     width: 200px;
-}
-
-figure
-{
-    align-items: center;
-    text-align: left;
+    float: left;
 }
 
 .container
  {
-    margin-top: 50px;
-    width: 95vw;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.521);
+    top: 0;
 }
 .box 
 {
-    width: 700px;
-    height: 300px;
-    background: #b0272700;
+    width: auto;
+    height: auto;
     border-radius: 35%;
-}
-figure
-{
-    float: left;
-    margin-top: auto;
+
 }
 
 #box2
 {
     width:fit-content;
-    height: 200px;
+    height: auto;
     display: flex;
-    flex-direction:column;
-    border-radius: 20%;
 }
 
 .alinhamento
@@ -72,5 +62,15 @@ figure
 .links
 {
 color: aliceblue;
-justify-content: center;
+}
+
+#boxlinks
+{
+    background-color: #ffffff4e;
+    border-radius: 10%;
+    height: 150px;
+    width: 150px;
+    text-align: justify;
+    margin: 10px;
+
 }
