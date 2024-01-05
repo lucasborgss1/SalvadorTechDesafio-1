@@ -3,74 +3,85 @@ body
     font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     color: #ffffff;
     background-image: url(./img/background.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    font-size:larger;
+    top: 0%;
+}   
+
+#background
+{
+    background-color: rgba(0, 0, 0, 0.634); 
+    min-height: 100vh;
+    display: block;
 }
 
 body , html
 {
-height: 100%;
-margin: 0%;
+    margin: 0%;
 }
 
 #cabecalho
 {
-text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 #perfil
 {
     border-radius: 10%;
-    height: 200px;
-    width: 200px;
+    height: 210px;
+    width: 210px;
+    margin-left: 50px;
+    margin-top: 50px;
     float: left;
+    justify-content: center;
 }
 
 .container
  {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.521);
-    top: 0;
-}
-.box 
-{
     width: auto;
-    height: auto;
-    border-radius: 35%;
-
+    height: 100%;
+    display: flex;
 }
 
 #box2
 {
     width:fit-content;
-    height: auto;
-    display: flex;
+    height: fit-content;
+    width: 60%;
+    text-align: justify;
+    float: right;
+    margin-right: 300px;
+    margin-top: 0%;
 }
 
 .alinhamento
 {
     text-align: center;
     justify-content: center;
+    margin: 0%;
 }
 
 .links
 {
-color: aliceblue;
+    color: rgb(77, 158, 228);
+
+}
+
+.infos
+{
+    text-align: justify;
 }
 
 #boxlinks
-{
-    background-color: #ffffff4e;
-    border-radius: 10%;
-    height: 150px;
-    width: 150px;
-    text-align: justify;
-    margin: 10px;
-
+{   
+    line-height: 100%;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 300px;
+    justify-content: left;
+    margin-left: 60px;
 }
