@@ -8,6 +8,7 @@ body
     background-attachment: fixed;
     font-size:larger;
     top: 0%;
+    line-height: normal;
 }   
 
 #background
@@ -81,7 +82,16 @@ body , html
     line-height: 100%;
     height: fit-content;
     width: fit-content;
-    margin-top: 300px;
+    margin-top: 290px;
     justify-content: left;
     margin-left: 60px;
+}
+
+.links:hover
+{
+    font-size:large;
+}
+.links:active
+{
+    color: floralwhite;
 }
