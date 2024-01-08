@@ -80,8 +80,8 @@ body , html
 #boxlinks
 {   
     line-height: 100%;
-    height: fit-content;
-    width: fit-content;
+    height: 90px;
+    width: 80px;
     margin-top: 290px;
     justify-content: left;
     margin-left: 60px;
